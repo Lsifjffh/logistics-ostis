@@ -21,7 +21,6 @@ customer_application
 		[customer application]
 		(*<-lang_en;;*);
 	<- sc_node_class;;
-	
 
 hour -> one_am;two_am;three_am;four_am;five_am;six_am;seven_am;eight_am;nine_am;ten_am;eleven_am;twelve_pm;one_pm;two_pm;three_pm;our_pm;five_pm;six_pm;seven_pm;eight_pm;nine_pm;ten_pm;eleven_pm;twelve_am;;
 
@@ -79,6 +78,7 @@ seven_am
 		(*<-lang_ru;;*);
 		[7 a.m.]
 		(*<-lang_en;;*);
+
 	<- sc_node_class;;
 
 eight_am
@@ -87,6 +87,7 @@ eight_am
 		(*<-lang_ru;;*);
 		[8 a.m.]
 		(*<-lang_en;;*);
+
 	<- sc_node_class;;
 
 nine_am
