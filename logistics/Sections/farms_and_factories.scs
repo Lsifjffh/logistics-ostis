@@ -32,7 +32,6 @@ country
     (*<- lang_en;;*);;
 
 Ruzhany
-<- sc_node_class;
 => nrel_main_idtf:
 	[Ружаны]
     (*<- lang_ru;;*);
@@ -41,7 +40,6 @@ Ruzhany
 <-township;;
 
 Rogachev
-<- sc_node_class;
 => nrel_main_idtf:
 	[Рогачев]
     (*<- lang_ru;;*);
@@ -50,7 +48,6 @@ Rogachev
 <-town;;
 
 Vasilishki
-<- sc_node_class;
 => nrel_main_idtf:
 	[Василишки]
     (*<- lang_ru;;*);
@@ -184,7 +181,6 @@ farm
 	*);;
 
 ruzhany_agro_farm
-<- sc_node_class;
 => nrel_main_idtf:
 	[Ферма "Ружаны-Агро"] 
 	(* <- lang_ru;; *);
@@ -210,7 +206,6 @@ ruzhany_agro_farm
 
 
 vasilishki_farm
-<- sc_node_class;
 => nrel_main_idtf:
 	[Ферма "Василишки"] 
 	(* <- lang_ru;; *);
@@ -232,7 +227,6 @@ vasilishki_farm
     dairy_cattle_breeding;;
 
 tihinichi_farm
-<- sc_node_class;
 => nrel_main_idtf:
 	[Ферма "Тихиничи"] 
 	(* <- lang_ru;; *);
@@ -292,7 +286,6 @@ factory
 
 
 Shuchin
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Щучин]
 		(*<- lang_ru;;*);
@@ -301,7 +294,6 @@ Shuchin
 	<-town;;
 
 Volkovysk
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Волковыск]
 		(*<- lang_ru;;*);
@@ -310,7 +302,6 @@ Volkovysk
 	<-town;;
 
 Belarus
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Беларусь]
 		(*<- lang_ru;;*);
@@ -319,7 +310,6 @@ Belarus
 	<-country;;
 
 Russia
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Россия]
 		(*<- lang_ru;;*);
@@ -328,7 +318,6 @@ Russia
 	<-country;;
 
 Grodno
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Гродно]
 		(*<- lang_ru;;*);
@@ -337,7 +326,6 @@ Grodno
 	<-city;;
 
 Brest
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Брест]
 		(*<- lang_ru;;*);
@@ -346,7 +334,6 @@ Brest
 	<-city;;
 
 Ukraine
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Украина]
 		(*<- lang_ru;;*);
@@ -355,7 +342,6 @@ Ukraine
 	<-country;;
 
 Kazakhstan
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Казахстан]
 		(*<- lang_ru;;*);
@@ -364,7 +350,6 @@ Kazakhstan
 	<-country;;
 
 Armenia
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Армения]
 		(*<- lang_ru;;*);
@@ -373,7 +358,6 @@ Armenia
 	<-country;;
 
 Azerbaijan
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Азербайджан]
 		(*<- lang_ru;;*);
@@ -382,7 +366,6 @@ Azerbaijan
 	<-country;;
 
 Moldova
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Молдова]
 		(*<- lang_ru;;*);
@@ -391,7 +374,6 @@ Moldova
 	<-country;;
 
 Singapore
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Сингапур]
 		(*<- lang_ru;;*);
@@ -400,7 +382,6 @@ Singapore
 	<-country;;
 
 Thailand
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Таиланд]
 		(*<- lang_ru;;*);
@@ -449,7 +430,6 @@ nrel_target_market
     (*<- lang_en;;*);;
 
 shuchin_creamery_factory
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Щучинский маслосырзавод] 
 		(* <- lang_ru;; *);
@@ -463,7 +443,6 @@ shuchin_creamery_factory
 	=> nrel_target_market: Belarus;;
 
 grodno_meat_packing_factory
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Гродненский мясокомбинат] 
 		(* <- lang_ru;; *);
@@ -475,7 +454,6 @@ grodno_meat_packing_factory
 	=> nrel_target_market: Belarus;;
 
 bellact_factory
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Беллакт] 
 		(* <- lang_ru;; *);
@@ -490,7 +468,6 @@ bellact_factory
 	=> nrel_target_market: Belarus; Russia;;
 
 savushkin_product_factory
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[Савушкин Продукт] 
 		(* <- lang_ru;; *);

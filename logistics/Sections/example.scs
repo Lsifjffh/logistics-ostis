@@ -149,7 +149,6 @@ emergency_three
 
 gaz_one
 	<- gaz_mm;
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[GAZ ONE]
 		(*<- lang_en;;*);
@@ -161,7 +160,6 @@ gaz_one
 
 gaz_two
 	<- gaz_mm;
-	<- sc_node_class;
 	=> nrel_main_idtf:
 		[GAZ TWO]
 		(*<- lang_en;;*);
