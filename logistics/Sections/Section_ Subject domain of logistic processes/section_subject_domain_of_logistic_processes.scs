@@ -942,7 +942,7 @@ nrel_working_hours
 		(* <- lang_ru;; *);
 		[working hours]
 		(*<-lang_en;;*);
-	<- sc_node_norole_relation;
+	<- sc_node_non_role_relation;
 	<= nrel_inclusion:
 		binary_relation;
 	=> nrel_first_domain: 
@@ -956,7 +956,7 @@ nrel_working_days
 		(* <- lang_ru;; *);
 		[working days]
 		(*<-lang_en;;*);
-	<- sc_node_norole_relation;
+	<- sc_node_non_role_relation;
 	<= nrel_inclusion:
 		binary_relation;
 	=> nrel_first_domain: 
@@ -970,7 +970,7 @@ nrel_time_of_completion
 		(* <- lang_ru;; *);
 		[time of completion]
 		(*<-lang_en;;*);
-	<- sc_node_norole_relation;
+	<- sc_node_non_role_relation;
 	<= nrel_inclusion:
 		binary_relation;
 	=> nrel_first_domain: 

@@ -38,7 +38,10 @@ route
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_route.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 		*);;
 
@@ -58,7 +61,10 @@ rrel_destination_point
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_rrel_destination_point.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 
 			<= nrel_using_constants: ...
@@ -100,7 +106,10 @@ rrel_departure_point
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_rrel_departure_point.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 
 			<= nrel_using_constants: ...

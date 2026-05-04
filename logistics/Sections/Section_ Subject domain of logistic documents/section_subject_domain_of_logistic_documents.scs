@@ -63,7 +63,10 @@ document <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_document.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 		*);;
 
@@ -88,7 +91,10 @@ international_document <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_international_document.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 			<= nrel_using_constants: ...
 				(*
@@ -122,7 +128,10 @@ consignment_voucher <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_consignment_voucher.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*
@@ -156,7 +165,10 @@ travel_document <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_travel_document.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*
@@ -185,7 +197,10 @@ veterinary_certificate <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_veterinary_certificate.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*
@@ -213,7 +228,10 @@ veterinary_guarantee <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_veterinary_guarantee.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*
@@ -241,7 +259,10 @@ invoice <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_invoice.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*
@@ -270,7 +291,10 @@ cmr <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_cmr.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*
@@ -298,7 +322,10 @@ certificate_of_origin <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_certificate_of_origin.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*
@@ -326,7 +353,10 @@ customer_ticket <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_customer_ticket.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*
@@ -354,7 +384,10 @@ electronic_act <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_electronic_act.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*
@@ -376,7 +409,7 @@ rrel_document_detail <- sc_node_role_relation;
 
 <- role_relation;;
 
-nrel_document_format <- sc_node_norole_relation;
+nrel_document_format <- sc_node_non_role_relation;
 => nrel_main_idtf:
 	[форма документа*]
 	(* <- lang_ru;; *);
@@ -393,7 +426,7 @@ nrel_document_format <- sc_node_norole_relation;
 => nrel_definitional_domain:
 	document;;
 
-nrel_document_to_draw_up <- sc_node_norole_relation;
+nrel_document_to_draw_up <- sc_node_non_role_relation;
 
 => nrel_main_idtf:
 	[оформляемый документ*]
@@ -422,7 +455,7 @@ nrel_document_to_draw_up <- sc_node_norole_relation;
 		};;
 	*);;
 
-nrel_required_document <- sc_node_norole_relation;
+nrel_required_document <- sc_node_non_role_relation;
 
 => nrel_main_idtf: 
 	[необходимый документ*]
@@ -469,7 +502,10 @@ ct1_certificate <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_ct1_certificate.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*
@@ -497,7 +533,10 @@ qualitative_certification <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_qualitative_certification.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*
@@ -525,7 +564,10 @@ shipping_bill <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_shipping_bill.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*
@@ -552,7 +594,10 @@ warehouse_task <- sc_node_class;
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_warehouse_task.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 				<= nrel_using_constants: ...
 				(*

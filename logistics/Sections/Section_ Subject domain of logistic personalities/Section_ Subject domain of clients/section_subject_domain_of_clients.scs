@@ -41,7 +41,10 @@ client
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_client.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 		*);;*];;
 

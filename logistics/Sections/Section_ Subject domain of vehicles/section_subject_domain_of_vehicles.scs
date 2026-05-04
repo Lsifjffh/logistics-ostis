@@ -48,7 +48,10 @@ vehicle
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_vehicle.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 		*);;
 
@@ -70,7 +73,10 @@ freight_transport
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_freight_transport.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 			<= nrel_using_constants: ...
 				(*
@@ -95,7 +101,10 @@ automobile
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_automobile.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 			<= nrel_using_constants: ...
 				(*
@@ -120,7 +129,10 @@ gaz_mm
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_gaz_mm.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 			<= nrel_using_constants: ...
 				(*
@@ -199,7 +211,10 @@ gaz_aa
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_gaz_aa.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 			<= nrel_using_constants: ...
 				(*
@@ -269,7 +284,10 @@ zil_5301
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_zil_5301.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 			<= nrel_using_constants: ...
 				(*
@@ -348,7 +366,10 @@ zil_4334
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_zil_4334.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 			<= nrel_using_constants: ...
 				(*
@@ -418,7 +439,10 @@ maz_5551
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_maz_5551.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 			<= nrel_using_constants: ...
 				(*
@@ -497,7 +521,10 @@ maz_5549
 				(*
 				-> rrel_example:
 					"file://content_html/explanation_for_maz_5549.html"
-						(* <- lang_ru;; *);; 
+						(*
+			<- lang_ru;;
+			=> nrel_format: format_html;;
+   			*);;
 				*);;
 			<= nrel_using_constants: ...
 				(*
